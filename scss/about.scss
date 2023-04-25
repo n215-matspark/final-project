@@ -1,0 +1,53 @@
+.about-container {
+  max-width: $nav-width;
+  margin: 0 auto;
+  height: 1050px;
+  .about-text {
+    float: left;
+    margin-top: 10%;
+    display: block;
+    .about-text-h1 {
+      max-width: 15.784693877%;
+      height: 73px;
+      border-bottom: 3px solid $site-black;
+      padding-bottom: 1px;
+      h1 {
+        font-size: 60px;
+        font-family: $Proxima;
+        font-weight: 100;
+        letter-spacing: 4.38px;
+      }
+    }
+    p {
+      font-size: 16px;
+      font-family: $GillSans;
+      color: $site-black;
+      margin-top: 4%;
+      letter-spacing: 1.5px;
+    }
+  }
+  .clients-container {
+    float: left;
+    margin-top: 10.1%;
+    display: inline;
+    max-width: 100%;
+    .client-title {
+      max-width: 242px;
+      height: 49px;
+      border-bottom: 2px solid $site-black;
+      padding-bottom: 1px;
+      h1 {
+        font-size: 40px;
+        font-family: $Proxima;
+        font-weight: 100;
+        letter-spacing: 3.7142px;
+      }
+    }
+    .client-section1 {
+      @include client-sections;
+    }
+    .client-section2 {
+      @include client-sections;
+    }
+  }
+}

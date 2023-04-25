@@ -1,0 +1,88 @@
+.spoffer-container {
+  max-width: $nav-width;
+  margin: 0 auto;
+  height: 850px;
+  margin-top: 3.65%;
+  .sptitle {
+    max-width: 199px;
+    height: 39px;
+    border-bottom: 2px #000 solid;
+    margin-bottom: 4%;
+  }
+  h1 {
+    color: #000;
+    font-weight: 300;
+    font-family: $Proxima;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .sp-section {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 10%;
+    .sp-image {
+      float: left;
+      img {
+        object-fit: cover;
+        width: 199px;
+        height: 287px;
+        margin-right: 20px;
+      }
+    }
+    .sp-text {
+      width: 291px;
+      max-height: 288px;
+      display: inline-block;
+      position: relative;
+      .sp-text-title {
+        width: 100%;
+        span {
+          position: absolute;
+          margin-top: -15%;
+          margin-left: 69%;
+          color: $site-orange;
+          font-family: $Proxima;
+          font-size: 20px;
+          letter-spacing: 1px;
+        }
+        .span2{
+            margin-left: 76%;
+        }
+      }
+      .title-line-under {
+        border-bottom: 2px #000 solid;
+        margin-top: -5.4%;
+        width: 185px;
+        margin-bottom: 6%;
+      }
+      .title-line-under2 {
+        border-bottom: 2px #000 solid;
+        margin-top: -5.4%;
+        width: 200px;
+        margin-bottom: 6%;
+      }
+      .sp-text-desc {
+        width: 91%;
+        p {
+          color: #000;
+          font-family: $GillSans-L;
+          font-size: 16px;
+          margin-bottom: 62px;
+          letter-spacing: .8px;
+        }
+        a {
+          font-family: $GillSans;
+          background-color: $site-blue;
+          padding: 11.2px 22px;
+          text-decoration: none;
+          color: $site-white;
+          font-size: 15px;
+          text-transform: uppercase;
+          border-radius: 30px;
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@mixin client-sections {
+  margin-top: 5%;
+  max-width: 674px;
+  height: 170px;
+  .client1 {
+    float: left;
+    width: 260px;
+    height: 150px;
+   margin-right: 21px;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .client-text {
+    max-width: 100%;
+    max-height: 100%;
+    p {
+      font-family: $GillSans-Ital;
+      font-size: 16px;
+      color: $site-black;
+      letter-spacing: 1.5px;
+    }
+    span {
+      margin-left: 3%;
+      letter-spacing: 1.895px;
+      margin-top: 5.3%;
+      float: right;
+      font-family: $Proxima;
+      font-size: 20px;
+      color: $site-blue;
+      font-weight: 100;
+    }
+  }
+}
+
+@mixin tour-boxes {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .boxes-text {
+      text-align: center;
+      color: $site-white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+        h3 {
+          padding-top: 15%;
+          font-family: $Proxima;
+          font-size: 60px;
+          font-weight: 500;
+        }
+  
+        p {
+          font-family: $Proxima;
+          font-size: 30px;
+          margin-top: -8%;
+          padding-bottom: 25%;
+        }
+  
+        a {
+          font-family: $GillSans;
+          background-color: $site-blue;
+          padding: 11px 22px;
+          text-decoration: none;
+          color: $site-white;
+          font-size: 15px;
+          text-transform: uppercase;
+          border-radius: 30px;
+        }
+      
+    }
+  }
+
+  @mixin tour-boxes-media {
+    width: 212px;
+    height: 273px;
+
+    .boxes-text {
+  
+        h3 {
+          font-size: 50px;
+          
+        }
+  
+        p {
+          font-size: 25px;
+        }
+  
+        a {
+          padding: 9px 19px;
+          font-size: 14px;
+        }
+      
+    }
+  }
+
+  @mixin tpage-hero{
+    margin-top: 4%;
+    max-width: 100%;
+    height: 413px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }

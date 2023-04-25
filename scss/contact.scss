@@ -1,0 +1,105 @@
+.contact-container {
+  max-width: $nav-width;
+  margin: 0 auto;
+  height: 850px;
+  margin-top: 3.65%;
+  .contact-title {
+    width: 145px;
+    max-height: 42px;
+    margin-bottom: 4%;
+    margin-top: 5%;
+    h1 {
+      color: #000;
+      font-weight: 300;
+      font-family: $Proxima;
+      font-size: 30px;
+      letter-spacing: 2px;
+    }
+  }
+  .title-line-under {
+    border-bottom: 2px #000 solid;
+    margin-top: -4%;
+    width: 150px;
+    margin-bottom: 4%;
+  }
+  .contact-us-container2{
+    display: flex;
+    width: 100%;
+    .map-info {
+        max-width: 400px;
+        iframe {
+          height: 442px;
+          width: 400px;
+          margin-bottom: 34px;
+        }
+        p {
+          width: 300px;
+          color: #000;
+          font-family: $GillSans-L;
+          font-size: 18px;
+          margin-bottom: -0.3%;
+          letter-spacing: 1.5px;
+        }
+        .address {
+          width: 190px;
+        }
+      }
+      .contact-form{
+        margin-left: 50px;
+        max-width: 529px;
+        height: 100%;
+        a{
+            font-family: $GillSans;
+            background-color: $site-blue;
+            padding: 17px 20px;
+            text-decoration: none;
+            color: $site-white;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        .contact {
+            input {
+              padding: 14px;
+              font-family: $GillSans;
+              font-size: 16px;
+              letter-spacing: 0.9px;
+              width: 529px;
+              height: 60px;
+              background-color: #f5f5f5;
+              border: none;
+              margin-bottom: 21px;
+              display: block;
+              font-size: 14px;
+              &:focus {
+                outline: none;
+                border: solid #79addc 2px;
+              }
+              &:hover {
+                border: solid #79addc 2px;
+              }
+            }
+            textarea {
+              word-wrap: break-word;
+              resize: none;
+              padding: 14px;
+              font-family: $GillSans;
+              font-size: 16px;
+              letter-spacing: 0.9px;
+              width: 529px;
+              min-height: 199px;
+              background-color: #f5f5f5;
+              border: none;
+              margin-bottom: 31px;
+              &:focus {
+                outline: none;
+                border: solid #79addc 2px;
+              }
+              &:hover {
+                border: solid #79addc 2px;
+              }
+            }
+          }
+      }
+  }
+
+}

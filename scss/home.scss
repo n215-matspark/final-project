@@ -1,0 +1,273 @@
+.home {
+  .hero {
+    max-width: 100%;
+    height: $hero-height;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.4)),
+      url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .hero-text {
+      height: 300px;
+      max-width: 32.8125%;
+      color: $site-white;
+      margin-top: 50px;
+
+      ul {
+        text-align: center;
+        list-style-type: none;
+
+        h3 {
+          font-family: $Proxima;
+          font-size: 60px;
+          padding: 8% 0;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+
+        p {
+          font-family: $GillSans-Ital;
+          font-size: 20px;
+          padding-bottom: 10%;
+        }
+
+        a {
+          font-family: $GillSans;
+          background-color: $site-blue;
+          padding: 11.2px 20px;
+          text-decoration: none;
+          color: $site-white;
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.tour-boxes {
+  background-color: $site-white;
+  max-width: 63.90625%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -3%;
+
+  .boxes {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.5)),
+      url(../images/tour/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+  }
+
+  .boxes2 {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.5)),
+      url(../images/tour/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+  }
+
+  .boxes3 {
+    width: $tour-box-width;
+    height: $tour-box-height;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.5)),
+      url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+  }
+
+  .boxes-text {
+    ul {
+      text-align: center;
+      list-style-type: none;
+      text-transform: uppercase;
+      color: $site-white;
+
+      h3 {
+        padding-top: 15%;
+        font-family: $Proxima;
+        font-size: 60px;
+        font-weight: 500;
+      }
+
+      p {
+        font-family: $Proxima;
+        font-size: 30px;
+        margin-top: -8%;
+        padding-bottom: 25%;
+      }
+
+      a {
+        font-family: $GillSans;
+        background-color: $site-blue;
+        padding: 11px 22px;
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        text-transform: uppercase;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+
+.bookings {
+  max-width: 63.90625%;
+  height: 750px;
+  margin: 50px auto 100px auto;
+
+  h1 {
+    font-family: $Proxima;
+    font-weight: 500;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+  .form {
+    input {
+      padding: 5px;
+      font-family: $GillSans-L;
+      font-size: 18px;
+      border: solid $site-blue 2px;
+    }
+    .two-input {
+      max-height: 121px;
+      max-width: 100%;
+      margin-bottom: 30px;
+
+      input {
+        margin-bottom: 15px;
+      }
+
+      .left {
+        width: 344px;
+        min-height: 58px;
+      }
+      .right {
+        width: 453px;
+        min-height: 58px;
+        float: right;
+      }
+    }
+
+    .single-line-input-holder {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      margin-bottom: 20px;
+
+      .large-input {
+        width: 698px;
+        min-height: 58px;
+        float: right;
+      }
+
+      .icon {
+        font-size: 20px;
+        position: absolute;
+        right: 25px;
+      }
+
+      label {
+        font-family: $GillSans-L;
+        font-size: 18px;
+      }
+    }
+
+    .three-inputs-container {
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .three-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      }
+      .small-input {
+        max-width: 103px;
+        min-height: 58px;
+        padding: 0 20px;
+      }
+
+      .icon {
+        font-size: 28px;
+        position: absolute;
+        top: 16%;
+        right: 15px;
+      }
+
+      label {
+        padding-right: 50px;
+        font-family: $GillSans-L;
+        font-size: 18px;
+      }
+    }
+
+    .message-input {
+      min-height: 192px;
+      max-width: 818px;
+      margin-bottom: 20px;
+
+      textarea {
+        height: 192px;
+        width: 100%;
+        padding: 5px;
+        font-family: $GillSans-L;
+        font-size: 18px;
+        border: solid $site-blue 2px;
+        word-wrap: break-word;
+        resize: none;
+      }
+    }
+
+    .sumbit-form {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        font-family: $GillSans;
+        background-color: $site-blue;
+        padding: 1.4em 25.46em;
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        text-transform: uppercase;
+        border-radius: 30px;
+      }
+
+      input {
+        font-family: $GillSans;
+        background-color: $site-blue;
+        height: 60px;
+        width: 100%;
+        color: $site-white;
+        font-size: 15px;
+        text-transform: uppercase;
+        border-radius: 30px;
+      }
+    }
+  }
+}

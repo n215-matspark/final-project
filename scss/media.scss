@@ -1,0 +1,424 @@
+@media screen and (max-width: 1265px) {
+  .bookings {
+    min-height: 900px;
+    .form {
+      .two-input {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+        input {
+          min-width: 100%;
+        }
+      }
+
+      .three-inputs-container {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .three-inputs {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+
+          .icon {
+            font-size: 28px;
+            position: absolute;
+            top: 16%;
+            right: 15px;
+          }
+        }
+      }
+      .single-line-input-holder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .large-input {
+          max-width: 84%;
+          min-height: 58px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .about-container {
+    width: 90%;
+    .about-text {
+      .about-text-h1 {
+        min-width: 15.784693877%;
+      }
+    }
+  }
+  .tours-container {
+    width: 90%;
+  }
+
+  nav {
+    max-width: 90%;
+    ul {
+      display: flex;
+    }
+  }
+
+  .content-wrapper {
+    width: 100%;
+    .tour-boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+  .bookings {
+    min-height: 900px;
+    .form {
+      .two-input {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+        input {
+          min-width: 100%;
+        }
+      }
+
+      .three-inputs-container {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .three-inputs {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+
+          .icon {
+            font-size: 28px;
+            position: absolute;
+            top: 16%;
+            right: 15px;
+          }
+        }
+      }
+      .single-line-input-holder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .large-input {
+          max-width: 84%;
+          min-height: 58px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  .tour-page-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 990px){
+  .content-wrapper {
+    .contact-container {
+      .contact-us-container2 {
+        .map-info {
+          iframe{
+            width: 375px;
+          }
+        }
+        .contact-form {
+          .contact {
+            input {
+              width: 425px
+            }
+            textarea{
+              width: 425px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1050px) {
+  .content-wrapper {
+    .contact-container {
+      width: 90%;
+      .contact-us-container2 {
+        .contact-form {
+          .contact {
+            input {
+              width: 450px
+            }
+            textarea{
+              width: 450px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .blog-container {
+    width: 90%;
+  }
+  .spoffer-container {
+    width: 90%;
+  }
+  .content-wrapper {
+    .tour-page-container {
+      height: 2560px;
+      .tpage-image-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 25px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1005px) {
+  .about-container {
+    .about-text {
+      .about-text-h1 {
+        min-width: 140px;
+      }
+    }
+  }
+  .bookings {
+    .form {
+      .three-inputs-container {
+        max-width: 100%;
+        margin-bottom: 20px;
+
+        .three-inputs {
+          label {
+            padding-right: 10px;
+            padding-left: 10px;
+            font-family: $GillSans-L;
+            font-size: 18px;
+          }
+
+          .small-input {
+            width: 98px;
+            min-height: 55px;
+            padding: 0 12px;
+          }
+
+          .icon {
+            font-size: 28px;
+            position: absolute;
+            top: 16%;
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1037px) {
+  .content-wrapper {
+    .tour-page-container {
+      height: 2600px;
+    }
+  }
+}
+@media screen and (max-width: 950px){
+  .content-wrapper {
+    .contact-container {
+      .contact-us-container2 {
+        .map-info {
+          iframe{
+            width: 345px;
+          }
+        }
+        .contact-form {
+          margin-left: 40px;
+          .contact {
+            input {
+              width: 405px
+            }
+            textarea{
+              width: 405px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 865px){
+  .content-wrapper {
+    .contact-container {
+      .contact-us-container2 {
+        .map-info {
+          iframe{
+            width: 325px;
+          }
+        }
+        .contact-form {
+          margin-left: 30px;
+          .contact {
+            input {
+              width: 385px
+            }
+            textarea{
+              width: 385px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 844px) {
+  .content-wrapper {
+    .tour-page-container {
+      height: 2675px;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .content-wrapper {
+    .tours-container {
+      height: 1250px;
+      .tours-navigation {
+        .box1 {
+          @include tour-boxes-media;
+        }
+        .box2 {
+          @include tour-boxes-media;
+        }
+        .box3 {
+          @include tour-boxes-media;
+        }
+        .box4 {
+          @include tour-boxes-media;
+        }
+        .box5 {
+          @include tour-boxes-media;
+        }
+        .box6 {
+          @include tour-boxes-media;
+        }
+        .box7 {
+          @include tour-boxes-media;
+        }
+        .box8 {
+          @include tour-boxes-media;
+        }
+        .box9 {
+          @include tour-boxes-media;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 815px){
+    .content-wrapper {
+      .contact-container {
+        .contact-us-container2 {
+          .map-info {
+            iframe{
+              width: 325px;
+            }
+          }
+          .contact-form {
+            margin-left: 25px;
+            .contact {
+              input {
+                width: 365px
+              }
+              textarea{
+                width: 365px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .content-wrapper {
+      width: 100%;
+      .tour-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+    }
+    .bookings {
+      min-height: 900px;
+      .form {
+        .two-input {
+          min-height: 300px;
+          display: flex;
+          flex-direction: column;
+          row-gap: 8px;
+
+          input {
+            min-width: 100%;
+          }
+        }
+
+        .three-inputs-container {
+          max-width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+
+          .three-inputs {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+
+            label {
+              padding-right: 10px;
+              padding-left: 10px;
+              font-family: $GillSans-L;
+              font-size: 18px;
+            }
+
+            .small-input {
+              width: 76px;
+              min-height: 48px;
+              padding: 0 12px;
+            }
+
+            .icon {
+              font-size: 22px;
+              position: absolute;
+              top: 16%;
+              right: 15px;
+            }
+          }
+        }
+        .single-line-input-holder {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .large-input {
+            max-width: 82%;
+            min-height: 58px;
+          }
+        }
+      }
+    }
+  }
+}
